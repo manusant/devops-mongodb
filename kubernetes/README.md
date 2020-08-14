@@ -342,7 +342,7 @@ List the replicaset services:
 ```
 $ kubectl get services
 ``` 
-Do a Prot-forward
+Do a Port-forward
 ```
 $ kubectl port-forward svc/mongo 27018:27017
 ```
